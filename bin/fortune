@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# coding: UTF-8
+require_relative '../lib/fortune'
+class Run
+	def self.main
+		Fortune.random
+	end
+end
+
+Run.main

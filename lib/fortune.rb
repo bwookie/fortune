@@ -1,5 +1,9 @@
-require "fortune/version"
+require_relative "fortune/version"
+require_relative "fortune/FortuneFactory"
+
 
 module Fortune
-  # Your code goes here...
+  def self.random
+  	Fortune::FortuneFactory.random
+  end
 end
