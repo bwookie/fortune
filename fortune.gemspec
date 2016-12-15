@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "fortune"
   spec.version       = Fortune::VERSION
   spec.authors       = ["Meagan Gates"]
-  spec.email         = ["Meagan.Gates@Cerner.com"]
+  spec.email         = ["mlgates13@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
